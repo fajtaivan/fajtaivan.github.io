@@ -1,0 +1,117 @@
+/* CSS Document */
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background-image: url(slike/Status-polizza-rischi-informatici-e1442922994151.png);
+	display: table;
+	top: 0;
+	background-size: cover;
+	color: white;
+}
+.horizontalna{
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+	text-align: center;
+	transition: .5s;
+	
+}
+.horizontalna ul li{
+	   	list-style-type: none;
+	   	display:inline-block;
+	   	padding: 10px 60px;
+	   	color: white;
+	   	font-size: 28px;
+	   	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	   	cursor: pointer;
+	   	border-radius:10px;
+	   	transition: .5s;
+}
+.horizontalna ul li:hover{
+   	background: orange;
+}
+.horizontalna ul li a{
+	color: white;
+	text-decoration: none;
+	
+}
+section{
+    border: 1px solid #e0e0e0;
+    background-color: rgba(83,46,163,0.40);
+    width:auto;
+    min-height:auto;
+    margin-top:200px;
+	margin-right: 200px;
+	margin-left: 500px;
+    padding-right:30px;
+	box-shadow: #0043A8 2px 3px 15px 0px;
+}
+section p{
+	font-size: 22px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding: 10px;
+}
+section h1 {
+	padding: 10px;
+	text-decoration: underline;
+	font-size: 35px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif" 
+}
+section ul li a{
+	color: white;
+	font-size: 20px;
+}
+section ul li a:hover{
+    color:#3b3b3b;
+    font-weight:bolder;
+    background-color:white;
+    border-right:5px solid #005afb;
+}
+.vertikalna {
+	float:left;
+	padding: 0px;
+    width:240px;
+    min-height: auto;
+    margin-left: 25px;
+	margin-top: 300px;
+	background-color: rgba(255,156,14,0.63);
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+}
+.vertikalna ul li{
+	   	list-style-type: none;
+	   	display:inline-block;
+	   	font-size: 18px;
+	   	font-family: sans-serif;
+	   	cursor: pointer;
+	   	border-radius:10px;
+	   	transition: .5s;
+}
+.vertikalna ul ul{
+	display: none;
+}
+.vertikalna ul:hover ul {
+	display: inline-block;
+}
+.vertikalna ul li a{
+	color: white;
+	text-decoration: none;
+}
+.vertikalna ul li a:hover{
+    color:#3b3b3b;
+    font-weight:bolder;
+    background-color:white;
+    border-right:5px solid #005afb;
+}
+.vertikalna ul li ul li {
+	display: none;
+}
+.vertikalna ul li:hover ul li{
+	display: inline-block;
+	width:440px;
+	border: thick;
+}
+.vertikalna .vatrozid {
+	color: orangered;
+}

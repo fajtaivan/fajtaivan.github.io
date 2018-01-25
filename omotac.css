@@ -1,0 +1,57 @@
+/* CSS Document */
+html, body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.uvod{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background-image: url(slike/system-shield-from-iolo-the-best-antivirus-protection-2.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	top: 0;
+	
+}
+
+.uvod .unutrasnjost {
+	display: table-cell;
+	vertical-align:middle;
+	width: 100%;
+	max-width: none;
+}
+
+.uvod .unutrasnjost .sadrzaj {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.sadrzaj h1 {
+	height: 100%;
+	font-family: 'Sedgwick Ave', cursive;
+	color: #FFFFFF;
+	text-shadow: 10px 10px 300px #000;
+	font-size: 600%;
+}
+.btn {
+	border-radius: 9px;
+	font-family: "black-ops-one", sans-serif;
+	color:aliceblue;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid aliceblue 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.btn:hover, btn:active {
+	color:skyblue;
+	border: solid skyblue 8px;
+}

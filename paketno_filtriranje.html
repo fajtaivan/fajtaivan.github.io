@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Paketno filtriranje</title>
+<link href="stil_paketno.css" rel="stylesheet" type="text/css" />
+<meta name="description" content="Web seminar">
+<meta name="author" content="Ivan Fajta">
+</head>
+
+<body>
+<div class="horizontalna">
+       <ul>
+      	  <li><a href="index.html">HOME</a></li>
+       	  <li><a href="naslovna.html">Naslovna</a></li>
+       	  <li><a href="uvod.html">Uvod</a></li>
+       	  <li><a href="sadrzaj.html">Sadržaj</a></li>
+       	  <li><a href="zakljucak.html">Zaključak</a></li>
+		  <li><a href="literatura.html">Literatura</a></li>
+       	  <hr width="75%">
+       </ul>
+</div>
+<div class="vertikalna">
+          <ul>
+           <li><a href="sadrzaj.html">Izbornik</a></li><br>
+            <ul>
+                <li><a href="uvod.html">Uvod</a></li><br>
+                <li><a href="zastita.html">Zaštita Sustava</a></li><br>
+                <li><a class="vatrozid" href="vatrozid.html">Vatrozid</a>
+                    <ul>
+                        <li><a class="vatrozid" href="paketno_filtriranje.html">Paketno filtriranje</a></li>
+                        <li><a href="maskiranje_mreznih_adresa.html">Maskiranje mrežnih adresa</a></li>
+                        <li><a href="virtualne_privatne_mreze.html">Virtualne privatne mreže</a></li>
+                    </ul>
+                </li>
+                <li><a href="posredna_usluga.html">Posredna usluga</a></li><br>
+                <li><a href="racunalni_virusi.html">Računalni virusi</a></li><br>
+                <li><a href="trojanski_konj.html">Trojanski konj</a></li><br>
+                <li><a href="racunalni_crv.html">Računalni crv</a></li><br>
+				<li><a href="antivirus.html">Antivirus</a></li><br>
+            	<li><a href="zakljucak.html">Zaključak</a></li>
+
+            </ul>
+		</ul>
+	</div>
+ 
+<section>
+ 		<h1>Paketno filtriranje</h1>
+	 	<p>Prvi vatrozidi su bili jednostavni paketni filteri. Oni su uspoređivali pakete mrežnih i transportnih protokola s pravilima zapisanih bazom pravila te prosljeđuju samo one pakete koji se poklapaju s kriterijima specificiranim u bazi pravila (B. Sviličić, A. Kraš 2005). Neke od prednosti paketnog filtriranja su: jedan uređaj štiti cijelu mrežu, ima veliku efikasnost te široku dostupnost, ali sve sta ima prednosti ima i mane a kod njega je to da alati za filtriranje nije savršen te nije moguće implementirati neke od zabrana.</p>
+	 	<p>Na slici ispod prikazan je princip rada paketnog filtriranja s dozvolom za prolaz samo TCP  paketima u portovima za Web, Mail i FTP , dok je svima ostalima promet zabranjen.</p>
+	 	<div class="image">
+            <img src="slike/paketno filtriranje.jpg" alt="paketno filtriranje" width="800">
+        </div>
+</section>
+</body>
+</html>
